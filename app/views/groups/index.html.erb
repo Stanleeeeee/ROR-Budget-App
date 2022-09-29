@@ -1,0 +1,25 @@
+<div class="header-div">
+   <h1 class="header"> Expenditures </h1>
+</div>
+<div id="groups" class="container">
+<% if user_signed_in? %>
+ <div class="grouping">
+ <%= button_to 'Sign Out', destroy_user_session_path, method: :delete %>
+
+ <div class="total row">
+    <h3 col-6> Expenditures</h3>
+    <h3 col-6><%= number_to_currency(@expenditures.sum(&:amount)) %> </h3>
+ </div>
+ 
+  <% @groups.each do |group| %>
+  <%= render group %>
+  <% end %> 
+  <div class="new-form"> 
+   <span> <%= link_to 'New Group', new_user_group_path %> </span>
+  </div>
+</div>
+ <% else %>
+ <span class="sign-link"> <strong> <%= link_to 'Sign In', new_user_session_path %> </span>
+ <span class="sign-link"><strong> <%= link_to 'Sign Up', new_user_registration_path %> </strong> </span> 
+ <% end %> 
+</div>

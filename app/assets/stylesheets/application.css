@@ -13,3 +13,190 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  font-family: proxima-nova, sans-serif;
+}
+
+a:link { 
+  text-decoration: none; 
+}
+
+.nav-list {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.header-div {
+  display: flex;
+  justify-content: center;
+  background-color: #3778c2;
+}
+
+.header-div h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #000;
+  color: #fff;
+}
+
+.container,
+#expenditures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.group-display {
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(223, 222, 222);
+  padding: 0.5%;
+}
+
+.group-list {
+  border: solid 3px rgb(223, 222, 222);
+  border-bottom: transparent;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: white;
+}
+
+.group-display img {
+  width: 15rem;
+  height: 6rem;
+}
+
+.group-name {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding: 5% 0 0 0;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-name a {
+  text-decoration: none;
+}
+
+.date {
+  display: inline-block;
+  text-align: center;
+  border-bottom: solid 3px rgb(223, 222, 222);
+  border-left: solid 3px rgb(223, 222, 222);
+  border-right: solid 3px rgb(223, 222, 222);
+  background-color: white;
+  padding: 0 0 12px 24px;
+}
+
+.new-form {
+  display: flex;
+  justify-content: center;
+  padding: 2% 0;
+  background-color: #5fb523;
+}
+
+.new-form span {
+  border: solid 1px white;
+  padding: 1% 30%;
+}
+
+.signin a {
+  color: white;
+}
+
+.form-span a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.user a {
+  text-decoration: none;
+}
+
+.sign-link a {
+  text-decoration: none;
+}
+
+.new-form span a {
+  color: white;
+  text-decoration: none;
+}
+
+.expense-display {
+  margin-bottom: 2%;
+  display: flex;
+  font-size: 18px;
+  background-color: rgb(242, 242, 242);
+  padding: 1% 15%;
+  justify-content: space-between;
+}
+
+.expense-amount {
+  padding: 0 0 0 20%;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 15%;
+  border: solid 3px rgb(223, 222, 222);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.total span {
+  padding: 0 12% 0 0;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form form {
+  padding: 5%;
+  border: solid 3px rgb(223, 222, 222);
+}
+
+.form form input,
+.form form select {
+  width: 24rem;
+  height: 4rem;
+  margin: 0.5% 0;
+  border: solid 3px rgb(223, 222, 222);
+  font-size: 18px;
+}
+
+.form form input[type="submit"] {
+  background-color: #5fb523;
+  color: white;
+  width: 24.5rem;
+}
+
+.user {
+  border: solid 3px rgb(223, 222, 222);
+  margin: 1%;
+}
+
+.appname {
+  text-align: center;
+  margin: 10rem 0;
+  font-size: 50px;
+}
+
+.signin {
+  background-color: #3778c2;
+  text-align: center;
+  font-size: 18px;
+  padding: 2% 0;
+}
+
+.signout {
+  text-align: center;
+  font-size: 18px;
+  padding: 2% 0;
+}
