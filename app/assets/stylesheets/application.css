@@ -14,12 +14,12 @@
  *= require_self
  */
 
- body {
+body {
   font-family: proxima-nova, sans-serif;
 }
 
-a:link { 
-  text-decoration: none; 
+a:link {
+  text-decoration: none;
 }
 
 .nav-list {
