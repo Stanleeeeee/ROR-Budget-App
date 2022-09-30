@@ -1,56 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# BO-JET APP
 
-> Description the project.
-
+> An application that make it easy for you to keep track of your expenditures and plan your finances better.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby on rails
+- Devise gem
+- cancancan gem
+
+## unit testing
+- Run tests using rspec
+
+## Live Presentation Video
+
+[Live Video Link](https://livedemo.com)
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
+### Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Clone the repository to get a local copy
+- Run bundle install to install all depndencies
 
+Run the following commands to run the app
 
-To get a local copy up and running follow these simple example steps.
+- rails db:create
+- rails db:migrate
+- rails s
+In your browser, go to
 
-### Prerequisites
+http://localhost:3000
+## Author
 
-### Setup
+👤 **Ezeoke Stanley Ifeanyi**
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Stanley](https://github.com/Stanleeeeee)
+- Twitter: [@Stanley](https://twitter.com/Stanmega89)
+- LinkedIn: [Stanley](https://linkedin.com/in/stanley-ezeoke)
 
 ## 🤝 Contributing
 
@@ -66,7 +57,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- The design template provider [Gregoire Vella on Behance.]
 
 ## 📝 License
 
