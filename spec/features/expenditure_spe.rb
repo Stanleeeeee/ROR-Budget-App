@@ -1,6 +1,6 @@
 RSpec.describe 'Expenditure integrations', type: :feature do
   it 'renders all expenditures' do
-    users = FactoryBot.create(:user)
+    user = FactoryBot.create(:user)
     group = FactoryBot.create(:group, user_id: user.id)
     FactoryBot.create(:expenditure, user_id: user.id)
     user.save
