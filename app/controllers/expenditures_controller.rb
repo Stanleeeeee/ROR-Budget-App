@@ -16,8 +16,6 @@ class ExpendituresController < ApplicationController
   end
 
   def create
-    # @user = current_user
-    # @group = Group.find(params[user_id: @user.id])
     @expenditure = Expenditure.new(expenditure_params)
     @expenditure.user_id = current_user.id
 

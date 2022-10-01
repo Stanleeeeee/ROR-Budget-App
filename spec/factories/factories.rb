@@ -1,9 +1,9 @@
 FactoryBot.define do
   factory :user do
-    name { 'John Doe' }
-    email { 'user@example.com' }
-    password { 'password' }
-    password_confirmation { 'password' }
+    name { 'Emeka' }
+    email { 'emeka@example.com' }
+    password { 'wewewewe' }
+    password_confirmation { 'wewewewe' }
   end
   factory :group do
     user

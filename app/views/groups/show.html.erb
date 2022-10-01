@@ -2,13 +2,13 @@
 <div class="header-div">
    <h1 class="header"> Transactions </h1>
 </div>
-<h1> <%= link_to user_groups_path do %>
- <i class="fa-solid fa-chevron-left" style="color: #3778c2; padding-left: 22px"> </i>
+  <h1> <%= link_to user_groups_path do %>
+  <i class="fa-solid fa-chevron-left" style="color: #3778c2; padding-left: 22px"> </i>
  <% end %>
- </h1>
+  </h1>
  <div class="all-expense">
  <div class="total"> <span class="expense">Total </span>
- <span> <%= number_to_currency(@expenditures.sum(:amount)) %> </span>
+  <span> <%= number_to_currency(@expenditures.sum(:amount)) %> </span>
  </div>
   <% @expenditures.each do |expenditure| %>
   <%= render expenditure %>
