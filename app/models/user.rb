@@ -7,5 +7,5 @@ class User < ApplicationRecord
   has_many :groups
 
   validates :email, uniqueness: true, length: { in: 5..30 }
-  validates :username, uniqueness: true, length: { in: 2..30 }
+  validates :name, uniqueness: false
 end
