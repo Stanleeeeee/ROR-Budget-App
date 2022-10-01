@@ -15,9 +15,9 @@
 
 ## Live Presentation Video
 
-[Live Video Link](video3825473041.mp4)
+[Live Video Link](https://drive.google.com/file/d/1wXMmDeTvtYD_MTAbUBNGU9f8dHYMTsfe/view?usp=sharing)
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://stan-budget-app.herokuapp.com/)
 
