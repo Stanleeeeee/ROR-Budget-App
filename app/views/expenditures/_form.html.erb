@@ -1,0 +1,16 @@
+<%= form_with model: [@user, @expenditure] do |form| %>
+
+  <div>
+    <%= form.text_field :name, placeholder: "Expense Name" %>
+  </div>
+
+  <div>
+    <%= form.number_field :amount, placeholder: "Expense Amount" %>
+  </div>
+  <div class="select">
+  <%= form.select(:group_id, @group) %>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+</div>

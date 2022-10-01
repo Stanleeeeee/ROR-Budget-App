@@ -1,0 +1,10 @@
+<div id="<%= dom_id group %>">
+<div class="group-display">
+<div class="group-list">
+  <div class="img"><img src="<%= group.icon %>"> </div>
+  <div class="group-name"><%= link_to group.name, user_group_path(id: group.id, user_id: group.user_id) %>
+  <span><%= total_amount_helper(Expenditure.all.where(group_id: group.id)) %> <span>  </div>
+  </div>
+  <span class="date"><%= group.created_at.to_date %></span>
+</div>
+</div>

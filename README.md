@@ -1,56 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# BO-JET APP
 
-> Description the project.
-
+> An application that make it easy for you to keep track of your expenditures and plan your finances better.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby on rails
+- Devise gem
+- cancancan gem
 
-## Live Demo (if available)
+## unit testing
+- Run tests using rspec
 
-[Live Demo Link](https://livedemo.com)
+## Live Presentation Video
 
+[Live Video Link](https://drive.google.com/file/d/1wXMmDeTvtYD_MTAbUBNGU9f8dHYMTsfe/view?usp=sharing)
 
-## Getting Started
+## Live Demo
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://stan-budget-app.herokuapp.com/)
 
 
+### Getting Started
 
-## Authors
+- Clone the repository to get a local copy
+- Run bundle install to install all depndencies
 
-👤 **Author1**
+Run the following commands to run the app
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- rails db:create
+- rails db:migrate
+- rails s
+In your browser, go to
 
-👤 **Author2**
+http://localhost:3000
+## Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Ezeoke Stanley Ifeanyi**
+
+- GitHub: [@Stanley](https://github.com/Stanleeeeee)
+- Twitter: [@Stanley](https://twitter.com/Stanmega89)
+- LinkedIn: [Stanley](https://linkedin.com/in/stanley-ezeoke)
 
 ## 🤝 Contributing
 
@@ -66,10 +57,8 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- The design template provider [Gregoire Vella on Behance.]
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

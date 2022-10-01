@@ -1,0 +1,18 @@
+<div id="expenditures">
+
+<h1> <%= link_to user_groups_path do %>
+ <i class="fa-solid fa-chevron-left" style="color: #3778c2; padding-left: 22px"> </i>
+ <% end %>
+ </h1>
+ <div class="all-expense">
+ <div class="total"> <span class="expense">Expenditures </span>
+ <span> <%= number_to_currency(@total) %> </span>
+ </div>
+  <% @expenditures.each do |expenditure| %>
+  <%= render expenditure %>
+  <% end %>
+    <div class="new-form"> 
+   <span> <%= link_to 'New Expenditure', new_user_group_expenditure_path %> </span>
+  </div>
+  </div>
+</div>
